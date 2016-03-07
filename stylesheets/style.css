@@ -1,12 +1,37 @@
 /******************************************************type************************************************/
 *{
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .name{
     text-align: center;
 }
 
-h1{
+.name h1{
+   margin-bottom: 40px; 
+}
+
+
+/************************************************Navigation************************************************************/
+.main-nav{
     
+}
+
+.main-nav ul{
+    text-align: center;
+    padding-left: 0;
+}
+
+.main-nav ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
 }
