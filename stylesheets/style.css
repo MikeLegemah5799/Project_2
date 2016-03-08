@@ -4,6 +4,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+}
 
 .name{
     text-align: center;
@@ -34,6 +37,25 @@
     color: #000;
 }
 
+/***************************************************Content*************************************************************/
+
+.profile-pic{
+    text-align: center;
+}
+
+.profile-pic img{
+    width: 75%;
+    max-width: 367px;
+}
+
+.description{
+    text-align: center;
+    padding: 10px;
+}
+.description h2{
+    font-weight: normal;
+    font-size: 20px;
+}
 
 /**************************************************Media Queries********************************************************/
 
@@ -48,11 +70,32 @@
     .main-nav ul li a{
         padding: 10px;
     }
+    .container{
+        width: 92%;
+        margin: 60px auto 0 auto;
+    }
+    .profile-pic{
+        text-align: right;
+        float: right;
+        width: 41.666666667%;
+    }
+    .profile-pic img{
+        width: 100%;
+    }
+    .description{
+        float: left;
+        width: 58.33333333%;
+        text-align: left;
+    }
 }/*end of tablets*/
 
 /*Desktop*/
 
 @media (min-width: 1024px){
+    .container{
+        width: 1024px;
+        margin: 0 auto;
+    }
     .name{
         text-align: left;
         float: left;
