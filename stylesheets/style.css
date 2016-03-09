@@ -42,6 +42,7 @@
 
 section{
     margin-bottom: 100px;
+    clear: both;
 }
 .profile-pic{
     text-align: center;
@@ -103,6 +104,8 @@ section{
         float: left;
         width: 58.33333333%;
         text-align: left;
+        margin-top: 0;
+        padding-top: 0;
     }
 }/*end of tablets*/
 
