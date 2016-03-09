@@ -134,7 +134,7 @@ section{
         float: left;
         width: 49%;
     }
-    .blurb:nth-child(odd){
+    .blurb-right{
         margin-right: 2%;
     }
 }/*end of tablets*/
