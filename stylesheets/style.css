@@ -39,6 +39,10 @@
 
 /***************************************************Content*************************************************************/
 
+
+section{
+    margin-bottom: 100px;
+}
 .profile-pic{
     text-align: center;
 }
@@ -51,6 +55,7 @@
 .description{
     text-align: center;
     padding: 10px;
+    margin-top: 20px;
 }
 .description h2{
     font-weight: normal;
@@ -58,6 +63,14 @@
     margin: 0;
 }
 
+.portfolio-title{
+    text-align: center;
+}
+
+.portfolio-title h3{
+    text-transform: uppercase;
+    
+}
 /**************************************************Media Queries********************************************************/
 
 /*Tablet*/
