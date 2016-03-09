@@ -105,6 +105,11 @@ section{
     color: #7F7F7F;
 }
 
+.phone{
+   margin-top: 40px !important;
+   margin-bottom: 20px !important;
+}
+
 .contact-text h2 span{
     font-weight: bold;
 }
