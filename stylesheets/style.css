@@ -112,4 +112,7 @@
         margin-top: 40px;
         padding-left: 40px;
     }
+    .main-nav ul li{
+        margin-right: 0;
+    }
 }/*end of Desktop*/
