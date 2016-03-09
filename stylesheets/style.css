@@ -8,6 +8,9 @@
     width: 100%;
 }
 
+p{
+    line-height: 1.5em;
+}
 .name{
     text-align: center;
 }
@@ -78,6 +81,7 @@ section{
 
 .blurb{
     text-align: center;
+    margin-bottom: 34px;
 }
 
 .blurb img{
@@ -125,6 +129,13 @@ section{
         text-align: left;
         margin-top: 0;
         padding-top: 0;
+    }
+    .blurb{
+        float: left;
+        width: 49%;
+    }
+    .blurb:nth-child(odd){
+        margin-right: 2%;
     }
 }/*end of tablets*/
 
