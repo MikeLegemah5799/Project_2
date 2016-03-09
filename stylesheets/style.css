@@ -64,8 +64,9 @@ section{
 }
 .description h2{
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
+    color: #7F7F7F;
 }
 
 .portfolio-title{
@@ -91,6 +92,17 @@ section{
 .blurb h4{
     font-weight: normal;
     font-size: 20px;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-text h2{
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+    color: #7F7F7F;
 }
 /**************************************************Media Queries********************************************************/
 
@@ -163,5 +175,14 @@ section{
     }
     .description{
         padding: 0;
+    }
+    .blurb{
+        width: 32%;
+    }
+    .blurb-right{
+        margin-right: 0;
+    }
+    .blurb-desktop{
+        margin-right: 2%
     }
 }/*end of Desktop*/
