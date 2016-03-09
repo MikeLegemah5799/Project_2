@@ -4,8 +4,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 .container{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 p{
@@ -103,6 +107,7 @@ section{
     font-size: 18px;
     margin: 0;
     color: #7F7F7F;
+    line-height: 1.5em;
 }
 
 .phone{
