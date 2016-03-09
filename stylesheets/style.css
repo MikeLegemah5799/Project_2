@@ -104,6 +104,15 @@ section{
     margin: 0;
     color: #7F7F7F;
 }
+
+.contact-text h2 span{
+    font-weight: bold;
+}
+
+.contact-text h2 span a{
+    color: #7F7F7F;
+    text-decoration: none;
+}
 /**************************************************Media Queries********************************************************/
 
 /*Tablet*/
