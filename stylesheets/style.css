@@ -131,4 +131,7 @@ section{
     .main-nav ul li{
         margin-right: 0;
     }
+    .description{
+        padding: 0;
+    }
 }/*end of Desktop*/
