@@ -205,6 +205,9 @@ footer{
         width: 75%;
         margin: 0 auto;
     }
+    .back-top{
+        display: none;
+    }
 }/*end of tablets*/
 
 /*Desktop*/
