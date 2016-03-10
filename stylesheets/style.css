@@ -6,6 +6,7 @@
 }
 body{
     margin: 0;
+    color: #4A4A4A
 }
 .container{
     width: 90%;
@@ -41,7 +42,7 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #000;
+    color: #4A4A4A
 }
 
 /***************************************************Content*************************************************************/
@@ -50,6 +51,10 @@ p{
 section{
     padding-bottom: 100px;
     clear: both;
+}
+
+section:last-child{
+    padding-bottom: 64px;
 }
 
 .profile-pic{
@@ -104,7 +109,7 @@ section{
 
 .contact-text h2{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
     color: #7F7F7F;
     line-height: 1.5em;
@@ -122,6 +127,21 @@ section{
 .contact-text h2 span a{
     color: #7F7F7F;
     text-decoration: none;
+}
+/************************************************Footer**************************************************************/
+footer{
+    border-top: 1px solid #E7E7E7;
+}
+
+footer p{
+   font-weight: bold; 
+}
+
+.back-top a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4A4A4A;
 }
 /**************************************************Media Queries********************************************************/
 
@@ -168,6 +188,10 @@ section{
     .blurb-right{
         margin-right: 2%;
     }
+    .contact-text{
+        width: 75%;
+        margin: 0 auto;
+    }
 }/*end of tablets*/
 
 /*Desktop*/
@@ -203,5 +227,8 @@ section{
     }
     .blurb-desktop{
         margin-right: 2%
+    }
+    .contact-text{
+        width: 51%;
     }
 }/*end of Desktop*/
