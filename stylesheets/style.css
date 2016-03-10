@@ -133,8 +133,20 @@ footer{
     border-top: 1px solid #E7E7E7;
 }
 
-footer p{
-   font-weight: bold; 
+.footer-name{
+    width: 50%;
+    float: left;
+}
+
+.footer-name p{
+   font-weight: bold;
+   margin-top: 30px;
+}
+.back-top{
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-top: 32px;
 }
 
 .back-top a{
@@ -142,6 +154,7 @@ footer p{
     text-transform: uppercase;
     font-weight: bold;
     color: #4A4A4A;
+    font-size: 14px;
 }
 /**************************************************Media Queries********************************************************/
 
