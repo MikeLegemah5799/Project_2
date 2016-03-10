@@ -42,7 +42,7 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #4A4A4A
+    color: #4A4A4A;
 }
 
 /***************************************************Content*************************************************************/
@@ -149,6 +149,9 @@ footer{
     margin-top: 32px;
 }
 
+.footer-nav{
+    display: none;
+}
 .back-top a{
     text-decoration: none;
     text-transform: uppercase;
@@ -207,6 +210,23 @@ footer{
     }
     .back-top{
         display: none;
+    }
+    .footer-nav{
+        display: block;
+    }
+    .footer-nav ul{
+        margin-top: 30px;
+    }
+    .footer-nav ul li{
+        margin-bottom: 0;
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .footer-nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #4A4A4A;
     }
 }/*end of tablets*/
 
