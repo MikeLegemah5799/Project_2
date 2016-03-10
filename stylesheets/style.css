@@ -271,4 +271,18 @@ footer{
     .contact-text{
         width: 51%;
     }
+    footer{
+        height: 80px;
+    }
+    
+    .footer-nav{
+        float: right;
+    }
+    .footer-nav ul li:last-child{
+        margin-right: 0;
+    }
+    
+    
+    
+    
 }/*end of Desktop*/
