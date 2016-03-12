@@ -170,6 +170,9 @@ footer{
     .name h1{
         margin-top: 40px;
     }
+    .main-nav ul{
+        padding-left: 40px;
+    }
     .main-nav ul li{
         margin-bottom: 0;
         display: inline-block;
@@ -250,7 +253,7 @@ footer{
     }
     .main-nav ul{
         margin-top: 40px;
-        padding-left: 40px;
+        
     }
     .main-nav ul li{
         margin-right: 0;
